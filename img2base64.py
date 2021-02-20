@@ -25,7 +25,7 @@ class img2base64(object):
     def __init__(self):
         # initate window
         self.window = Tk()
-        self.window.title("img2base64 v1.0")
+        self.window.title("img2base64 v1.1")
         self.screen_width = self.window.winfo_screenwidth()
         self.screen_height = self.window.winfo_screenheight()
         self.window_width = 800 if os.name == "posix" else 820
